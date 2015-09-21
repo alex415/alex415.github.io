@@ -2,13 +2,13 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
 @font-face {
-  font-family: ProximaNova-Bold;
-  src: url(ProximaNova-Bold.otf);
+  font-family: RefrigeratorDeluxe;
+  src: url(../fonts/RefrigeratorDeluxe.otf);
 }
 
 @font-face {
-  font-family: GothamNarrow-Light;
-  src: url(GothamNarrow-Light.otf);
+  font-family: GothamNarrow-Book;
+  src: url(../fonts/GothamNarrow-Book.otf);
 }
 
 *, *:before, *:after {
@@ -26,12 +26,12 @@ body {margin: 0; min-height: 100%; -webkit-font-smoothing:antialiased; font-smoo
 /* DEFAULT FONT SETTINGS */
 /* 16px base font size with 150% (24px) friendly, unitless line height and margin for vertical rhythm */
 /* Font-size percentage is based on 16px browser default size */
-body, button, input, select, textarea {font: 100%  'GothamNarrow-Light', sans-serif; *font-size: 1em; color: #555} /* IE7 and older can't resize px based text */
+body, button, input, select, textarea {font: 100%  'GothamNarrow-Book', sans-serif; *font-size: 1em; color: #555} /* IE7 and older can't resize px based text */
 p, blockquote, q, pre, address, hr, code, samp, dl, ol, ul, form, table, fieldset, menu, img {margin: 0 0 1.5em; padding: 0}
 
 /* TYPOGRAPHY */
 /* Composed to a scale of 12px, 14px, 16px, 18px, 21px, 24px, 36px, 48px, 60px and 72px */
-h1, h2, h3, h4, h5, h6 {font-family:'ProximaNova-Bold', sans-serif;color:#444;}
+h1, h2, h3, h4, h5, h6 {font-family:'RefrigeratorDeluxe', sans-serif;color:#444;}
 h1 {margin: 0; font-size: 3.75em; line-height: 1.2em; margin-bottom: 0.4em} /* 60px / 72px */
 h2 {margin: 0; font-size: 3em; line-height: 1em; margin-bottom: 0.5em} /* 48px / 48px */
 h3 {margin: 0; font-size: 2.25em; line-height: 1.3333333333333333333333333333333em; margin-bottom: 0.6667em} /* 36px / 48px */ 
@@ -79,7 +79,7 @@ dt {font-family:Futura, "Century Gothic", AppleGothic, sans-serif}
 /* HYPERLINKS */
 a { 
   text-decoration: none;
-  color: #E74C3C;
+  color: #DE4F4F;
   -webkit-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
   -moz-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
   -ms-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
@@ -101,8 +101,8 @@ ins, mark {text-decoration: none}
 mark {background: #c47529}
 ins {background: #d49855}
 del {text-decoration: line-through}
-::-moz-selection {background: #E74C3C; color: #fff; text-shadow: none} /* selected text */
-::selection {background: #E74C3C; color: #fff; text-shadow: none} /* selected text */
+::-moz-selection {background: #DE4F4F; color: #fff; text-shadow: none} /* selected text */
+::selection {background: #DE4F4F; color: #fff; text-shadow: none} /* selected text */
 
 /* OTHERS */
 strong, b, dt { font-weight: bold}
@@ -173,7 +173,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 /* Backgrounds */
 
 .bg-1{
-  background-image: url('../images/floor.jpg');
+  background-image: url('../images/background.jpg');
 }
 
 /* Header */
@@ -182,7 +182,6 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 #header #logo{
   text-align: center;
-
   display: none;
 }
 #header h4{
@@ -247,7 +246,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 
 .tab a.active {
   padding-top: 10px;
-  color: #e74c3c;
+  color: #DE4F4F;
 }
 .tab a i{
   font-size: 16px;
@@ -279,10 +278,19 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: .3em;
+  color: #FFF;
+  text-shadow: 3px 3px 12px rgba(0, 0, 0, 1);
 }
 .info h4, #header h4{
-  color: #999;
+  color: #FFF;
+  text-shadow: 3px 3px 12px rgba(0, 0, 0, 1);
 }
+
+.info-header h2, .info-header h4 {
+  color: #444 !important;
+  text-shadow: none;
+}
+
 /* Contact */
 .main-links{
 
@@ -428,7 +436,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   display:inline-block;
   margin: 0 10px 10px 0;    
   padding: 14px 20px;  
-  background: #E74C3C;
+  background: #DE4F4F;
   color: #fff;
   font-weight: bold;
   font-size: 13px;
