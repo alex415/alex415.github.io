@@ -2,8 +2,8 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
 @font-face {
-  font-family: ProximaNova-Regular;
-  src: url(../fonts/ProximaNova-Regular.otf);
+  font-family: ProximaNova-Bold;
+  src: url(../fonts/ProximaNova-Bold.otf);
 }
 
 @font-face {
@@ -12,8 +12,8 @@
 }
 
 @font-face {
-  font-family: GothamNarrow-Book;
-  src: url(../fonts/GothamNarrow-Book.otf);
+  font-family: PantonBold;
+  src: url(../fonts/PantonBold.otf);
 }
 
 *, *:before, *:after {
@@ -31,14 +31,14 @@ body {margin: 0; min-height: 100%; -webkit-font-smoothing:antialiased; font-smoo
 /* DEFAULT FONT SETTINGS */
 /* 16px base font size with 150% (24px) friendly, unitless line height and margin for vertical rhythm */
 /* Font-size percentage is based on 16px browser default size */
-body, button, input, select, textarea {font: 100%  'GothamNarrow-Book', sans-serif; *font-size: 1em; color: #555} /* IE7 and older can't resize px based text */
+body, button, input, select, textarea {font: 100%  'Gotham-Book', sans-serif; *font-size: 1em; color: #555} /* IE7 and older can't resize px based text */
 p, blockquote, q, pre, address, hr, code, samp, dl, ol, ul, form, table, fieldset, menu, img {margin: 0 0 1.5em; padding: 0}
 
 /* TYPOGRAPHY */
 /* Composed to a scale of 12px, 14px, 16px, 18px, 21px, 24px, 36px, 48px, 60px and 72px */
-h1, h2, h3, h4, h5, h6 {font-family:'ProximaNova-Regular', sans-serif;color:#444;}
+h1, h2, h3, h4, h5, h6 {font-family:'PantonBold', sans-serif;color:#444;}
 h1 {margin: 0; font-size: 3.75em; line-height: 1.2em; margin-bottom: 0.4em} /* 60px / 72px */
-h2 {margin: 0; font-size: 3em; line-height: 1em; margin-bottom: 0.5em} /* 48px / 48px */
+h2 {margin: 0; font-size: 3.25em; line-height: 1em; margin-bottom: 0.5em} /* 48px / 48px */
 h3 {margin: 0; font-size: 2.25em; line-height: 1.3333333333333333333333333333333em; margin-bottom: 0.6667em} /* 36px / 48px */ 
 h4 {margin: 0; font-size: 1.5em; line-height: 1em; margin-bottom: 1em} /* 24px / 24px */
 h5 {margin: 0; font-size: 1.3125em; line-height: 1.1428571428571428571428571428571em; margin-bottom: 1.1428571428571428571428571428571em} /* 21px / 24px */
