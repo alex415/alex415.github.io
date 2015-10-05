@@ -139,7 +139,6 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   margin: 0 auto;
 }
 
-
 /* Utility */
 .chromeframe {
   margin: 0.2em 0;
@@ -175,8 +174,8 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   padding-bottom: 1em;
   clear: both;
 }
-/* Backgrounds */
 
+/* Backgrounds */
 .bg-1{
   background-image: url('../images/background.jpg');
 }
@@ -212,8 +211,6 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   box-shadow: 0px 6px #c0392b;
   border-radius: 0px 0px 4px 4px;
 }
-
-
 .tab {
   display: inline-block;
   zoom: 1;
@@ -225,7 +222,6 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   -webkit-border-radius: 4px 4px 0 0;
   margin-right:10px; 
 }
-
 .tab a {
   font-weight: bold;
   text-transform: uppercase;
@@ -236,11 +232,9 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   color: #888;
   text-decoration: none;
 }
-
 .tab a:hover {
   text-decoration: none;
 }
-
 .tab.active {
   background: #fff;
   position: relative;
@@ -248,7 +242,6 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   border-color: #f1f1f1;
   border-bottom: none;
 }
-
 .tab a.active {
   padding-top: 10px;
   color: #DE4F4F;
@@ -260,8 +253,8 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 
 /* INFO */
 .info-wrap{
-
 }
+
 /* Photo */
 .photo{
   float: left;
@@ -303,7 +296,6 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 
 /* Contact */
 .main-links{
-
 }
 .main-links ul{
   list-style: none outside none;
@@ -315,10 +307,9 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   padding: 10px 0;
 }
 .main-links ul li a{
-
   font-size: 14px;
-
 } 
+
 /* Contact-info */
 .contact-info{
 
@@ -329,13 +320,11 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 
 /* Icon Styling */
 .contact-info i{
-
   color: #333;
   font-size: 46px;
-
 }
-/* Item Box */
 
+/* Item Box */
 .item-box{
   padding: 6px 6px 6px 10px;
   border: 1px solid rgba(222, 79, 79, .2);
@@ -358,7 +347,6 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   line-height: 1em;
   margin: 3px 0px 0px 0px;
   font-size: 1em;
-
 }
 .item-box .item-data p{
   margin: 0px;
@@ -423,6 +411,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   display: inline-block;
   margin-top: -20px;
 }
+
 /* Icon Box */
 .sny-icon{
   display: block;
@@ -442,6 +431,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 .sny-icon-content p{
   margin-bottom: 0px;
 }
+
 /* Buttons */
 .btn{
   display:inline-block;
@@ -545,8 +535,6 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
-
-
   position: relative;
   overflow: hidden;
 }
@@ -611,12 +599,10 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 
 .emerald > span {
   background-color: #2ecc71;
-
 }
 
 .carrot > span {
   background-color: #e67e22;
-
 }
 .wisteria > span{
   background-color: #8e44ad;
@@ -637,6 +623,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   -webkit-animation: none;
   background-image: none;
 }
+
 /* Footer */
 footer{
   text-align: center;
@@ -697,6 +684,7 @@ Change widths as necessary
    padding-left: 20px;
    border-left: 1px solid #f1f1f1;
  }
+ 
  /* COLUMN GRID */
  .g1,.g2,.g3 {display:inline; float: left}
 
